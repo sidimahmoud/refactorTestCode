@@ -12,7 +12,6 @@ changes that I made:
           * basic use of the ternary operator.
         -jobToData :
           * Use $job->all().
-
         - Rather than using sendSMSNotificationToTranslator
                             sendPushNotificationToSpecificUsers
                             sendSessionStartRemindNotification
@@ -21,5 +20,4 @@ changes that I made:
                             sendChangedLangNotification
                             sendExpiredNotification
           I would use laravel make:notification notify it's very easy to implement.
-
         - Updatejob use getOriginal instead of log_data.
