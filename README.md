@@ -1,11 +1,12 @@
 # refactorTestCode
 My opinion: The code is very hard to understand the methods are too long. 
             The best pratice that the controller didn't handle logic.
-Suggestion: The use of observers, Jobs, notification classes.
+Suggestion: The use of observers, Jobs, notification classes.changes that I made: 
 
-changes that I made: 
-  1- For controller: I used serviceProvider for the logic it will be a rubric between the repository and the controller.
-  2- Repository:
+1- For controller: I used serviceProvider for the logic it will be a rubric between the repository and the controller.
+
+2- Repository:
+
         -The use of findOrFail method no need for check if exist.
         -Method Store:
           * Use of request validation StoreBookingRequest with custom message errors.
