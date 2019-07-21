@@ -2,9 +2,11 @@
 My opinion: The code is very hard to understand the methods are too long. 
             The best pratice that the controller didn't handle logic.
 
-Suggestion: The use of observers, Jobs, notification classes.changes that I made: 
+Suggestion: The use of observers, Jobs, notification classes.
 
-1- For controller: I used serviceProvider for the logic it will be a rubric between the repository and the controller.
+Changes that I made: 
+ 
+ 1- For controller: I used serviceProvider for the logic it will be a rubric between the repository and the controller.
 
 2- Repository:
 
